@@ -1,0 +1,265 @@
+    1  ls
+    2  desktop
+    3  pwd
+    4  ls
+    5  ls -F
+    6  ls --help
+    7  apt --help
+    8  apt contains
+    9  apt contain
+   10* 
+   11  ls --help
+   12  apt contain
+   13  apt show
+   14  cd desktop/
+   15  cd desktop
+   16  cd Desktop
+   17  ls
+   18  cd data-shell
+   19  pwd
+   20  ls
+   21  cd data
+   22  ls -la
+   23  cd data-shell
+   24  cd..
+   25  cd ..
+   26  ls -F
+   27  ls -F -a
+   28  pwd
+   29  ls
+   30  mkdir thesis
+   31  ls
+   32  ls -F
+   33  cd thesis
+   34  nano draft.txt
+   35  draft.txt
+   36  nano draft.txt
+   37  pwd
+   38  ls
+   39  pwd
+   40  touch my_file.txt
+   41  ls
+   42  ls -ih
+   43  clean
+   44  clear
+   45  cd ..
+   46  mv thesis/draft.txt thesis/my_love
+   47  cd thesis
+   48  ls
+   49  rm my_file.txt
+   50  ls
+   51  touch my_file.txt
+   52  mv thesis/my_love.txt
+   53  ls
+   54  mv thesis/my_love
+   55  mv thesis/my_love .
+   56  ls
+   57  cd ..
+   58* 
+   59  ls
+   60  touch thesis/my_love.txt
+   61  ls
+   62  cd thesis
+   63* 
+   64  mv  thesis/my_love.txt ..
+   65  cd ..
+   66  mv  thesis/my_love.txt ..
+   67  ls
+   68  touch my_love.txt ..
+   69  ls
+   70  cp my_love.txt thesis/myclass.txt
+   71  cd thesis
+   72  ls
+   73  cd ..
+   74  mv my_love thesis/
+   75  cd ..
+   76  cd data-shell
+   77  cd thesis/
+   78  ls
+   79  rm my-love
+   80  rm my_love
+   81  ls
+   82  clear
+   83  cp -r thesis/ thesis_backup
+   84  cd ..
+   85  cp -r thesis/ thesis_backup
+   86  ls
+   87  rm -r thesis
+   88  ls
+   89  cp -r thesis_backup thesis
+   90  ls
+   91  cd thesis
+   92  ls
+   93  cd ..
+   94  rm -r thesis
+   95  ls
+   96  cd molecules
+   97  ls
+   98  wc *.pdb
+   99  wc --help
+  100  clear
+  101  wc --help
+  102  wc -l *.pdb
+  103  wc -c *.pdb
+  104  wc -w *.pdb
+  105  --help
+  106  wc -w --help
+  107  clear
+  108  wc -w *.pdb
+  109  wc -l *.pdb
+  110  wc -c *.pdb
+  111  pwd
+  112  --version
+  113  ver
+  114  -ver
+  115  --ver
+  116  ls
+  117  find oc*
+  118  top
+  119  clear
+  120  wc cubane.pdb
+  121  wc *.pdb > length.txt
+  122  ls
+  123  nano length.txt
+  124* 
+  125  cat length.txt
+  126  cat --help
+  127  clear
+  128  sort -n length.txt
+  129  sort --help
+  130  sort -n length.txt > sorted_length.txt
+  131  ls
+  132  nano sorted_length.txt
+  133  ls
+  134  clear
+  135  ls
+  136  cat length.txt
+  137  cat sorted_length.txt
+  138  sort  length.txt > sorted_length.txt
+  139  cat sorted_length.txt
+  140  sort -n length.txt > sorted_length.txt
+  141  cd ..
+  142  cd molecules/
+  143  echo hello > test01.txt
+  144  echo hello >> test02.txt
+  145  ls
+  146  echo hello >> test02.txt
+  147  echo hello > test01.txt
+  148  nano test01.txt
+  149  nano test02.txt
+  150  echo hello >> test01.txt
+  151  nano test01.txt
+  152  clear
+  153  echo hello >> test01.txt
+  154  nano test01.txt
+  155  pwd
+  156  sort -n length.txt|head -n 1
+  157  sort -n length.txt|head -n 2
+  158  sort -n length.txt|head -n 4
+  159  sort -n length.txt|head -n 2
+  160  sort --help
+  161  sort -r length.txt|head -n 1
+  162  sort -r *.pdb|head -n 1
+  163  sort -n *.pdb|head -n 1
+  164* sort -r |head -n 1
+  165  sort -n *.pdb | head -n 1
+  166  sort -n *.pdb\
+  167  sort -n *.pdb
+  168  wc -l *.pdb | sort -n | head -n 1
+  169  wc -l *.pdb | sort -r | head -n 1
+  170  wc -l *.pdb | sort -n | head -n 1
+  171  wc -l *.pdb | sort -n | head -n 1 > length2.txt
+  172  ls
+  173  sort -n length2.txt
+  174  wc -l *.pdb | sort -n |> length2.txt| head -n 1 
+  175  ls
+  176  sort -n length2.txt
+  177  cd ..
+  178  ls
+  179  cd data/
+  180  ls
+  181  sort salmon.txt
+  182  cat salmon.txt
+  183  sort salmon.txt | uniq
+  184  uniq sort salmon.txt 
+  185  sort salmon.txt | uniq -c
+  186  uniq sort salmon.txt 
+  187  sort salmon.txt | uniq
+  188  sort salmon.txt | uniq -c
+  189  ls
+  190  cat animals.txt
+  191  clear
+  192  cat animals.txt
+  193  cut -d , -f 2 animals.txt
+  194  cut -d , -f 2 animals.txt |sort
+  195  cut -d , -f 2 animals.txt |sort|uniq -c
+  196  cut -d , -f 2 animals.txt |sort -r|uniq -c
+  197  cut -d , -f 2 animals.txt |sort -n|uniq -c
+  198  cut --help
+  199  man cut
+  200  more
+  201  ls /var/
+  202  ls /etc/
+  203  ls -l /etc/
+  204  ls -l /etc/ | more
+  205  ls
+  206  cd ..
+  207  ls
+  208  cd creatures
+  209  ls
+  210  cat bailisk.dat
+  211  cat basilisk.dat
+  212  head -n 2 basilisk.dat
+  213* 
+  214  for filename in basilisk.dat unicorn.dat; do    head -n 2;  $filename; 
+  215  for filename in basilisk.dat unicorn.dat; do    head -n 2 $filename | tail -n 1; done
+  216  for x in basilisk.dat unicorn.dat; do    head -n 2 $x | tail -n 1; done
+  217  for x in *.dat; do    head -n 2 $x | tail -n 1; done
+  218  for x in *.dat; do    head -n 2 $x | tail -n 1;>>text.txt; done
+  219  dir
+  220  cat text.txt
+  221  nano text.txt
+  222  for x in *.dat; do    head -n 2 echo $x | tail -n 1;>>text.txt; done
+  223  for x in *.dat; do    head -n 2 $x | tail -n 1;>>text.txt; done
+  224  for x in *.dat; do    head -n 2 $x | tail -n 1|>>text.txt;text; done
+  225  for x in *.dat; do    head -n 2 $x | tail -n 1|>>text.txt; done
+  226  nano text.txt
+  227  for x in *.dat; do    head -n 2 $x | tail -n 1; done
+  228  nano middle.sh
+  229  cat middle.sh
+  230  bash middle.sh
+  231  nano middle.sh
+  232  bash middle.sh
+  233  nano middle.sh
+  234  bash middle.sh
+  235  nano middle.sh
+  236  bash middle.sh
+  237  nano middle.sh
+  238  bash middle.sh
+  239  bash middle.sh methane.pdb
+  240  ls
+  241  bash middle.sh unicorn.dat
+  242  nano middle.sh
+  243  bash middle.sh unicorn.dat 4  6
+  244  bash middle.sh unicorn.dat 10 5
+  245  bash middle.sh unicorn.dat 100 5
+  246  bash middle.sh unicorn.dat 100 50
+  247  clear
+  248  cd ..
+  249  ls
+  250  cd writing
+  251  ls
+  252  cat haiku.txt
+  253  grep not haiku.txt
+  254  grep the haiku.txt
+  255  grep The haiku.txt
+  256  grep -n  The haiku.txt
+  257  cat haiku.txt
+  258  find .
+  259  find the
+  260  find .the
+  261  find ./
+  262  find ./th
+  263  find ./the
+  264  history >t
+  265  history > test.txt
